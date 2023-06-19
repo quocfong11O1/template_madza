@@ -1,0 +1,680 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: fontMazda;
+  src: url("./assets/font/SF Automaton Extended.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: fit-content;
+}
+
+.nav {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.nav img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.nav ul {
+  display: flex;
+  width: fit-content;
+  gap: 40px;
+}
+
+.nav__left-content li {
+  list-style-type: none;
+  color: white;
+}
+
+.nav__left-content li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.nav__left-content li a:hover {
+  color: orange;
+  transition: all 0.2s linear;
+}
+
+.products {
+  padding-top: 50px;
+  display: grid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  gap: 30px;
+}
+/* nav end */
+
+/* header start */
+.header {
+  width: 100%;
+  height: 500px;
+  margin-top: 81px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  /* padding: 50px 0px; */
+}
+
+.splide__track {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slides {
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* header end */
+
+/* product start */
+.product {
+  width: 450px;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__image {
+  width: 100%;
+  height: 70%;
+}
+
+.product__image .main__img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border: 2px solid white;
+}
+
+.product__image .main__img img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.product__image .sub__img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.product__image:hover {
+  transition: all 1s linear;
+}
+
+.product__image:hover .main__img {
+  display: none;
+  transition: all 1s linear;
+}
+
+.product__image:hover .sub__img {
+  display: block;
+}
+
+.product__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  height: 100%;
+}
+
+.product__content h1 {
+  /* font-weight: 800; */
+  font-family: fontMazda;
+  text-align: center;
+}
+
+.product__content p {
+  font-size: 14px;
+}
+
+.product__content h4 {
+  color: #f90000;
+  font-size: 1.5rem;
+}
+
+/* product end */
+
+/* article start */
+
+.articles {
+  padding: 50px 0;
+  background: url("./assets/banner/bgmauxehot-4923.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aritcles__content {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.aritcle {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.aritcle__title {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.aritcle__title h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.article__image {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article__image img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.article__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #141414;
+}
+
+.article__content h1 {
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.article__content img {
+  margin: 10px 0;
+}
+
+.article__content p {
+  width: 60%;
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* article end */
+
+/* sign up start  */
+.signup {
+  padding: 50px 0;
+  background: url("./assets/banner/bgdangky-8626.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.signup .overlay {
+  width: 530px;
+  height: 405px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  right: 50px;
+  top: 100px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.signup form {
+  width: 530px;
+  height: 405px;
+  position: absolute;
+  right: 50px;
+  top: 100px;
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.signup form h1 {
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.signup form select {
+  width: 80%;
+  height: 50px;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.signup form select:focus {
+  outline: none;
+}
+
+.signup form .sign__up-info {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.signup form .sign__up-info input {
+  width: 50%;
+  height: 100%;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+  border: none;
+}
+
+.signup form .sign__up-info input:focus {
+  outline: none;
+}
+
+.signup form input {
+  width: 80%;
+  height: 50px;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.signup form input:focus {
+  outline: none;
+}
+
+.signup form button {
+  width: 40%;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px white solid;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* sign up end  */
+
+/* footer start */
+
+.footer {
+  padding: 50px 0;
+  background: url("./assets/banner/bgmauxehot-4923.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__service {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  color: white;
+}
+
+.footer__service-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer__service-logo img {
+  width: 93px;
+  height: auto;
+  object-fit: cover;
+}
+
+.footer__service-logo p {
+  width: 64%;
+  text-align: justify;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.footer__service-column {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer__service .footer__service-column:nth-child(3) {
+  width: 100%;
+  height: 70%;
+  border-left: 1px solid white;
+  padding-left: 40px;
+}
+
+.footer__service .footer__service-column:nth-child(4) {
+  width: 100%;
+  height: 70%;
+  border-left: 1px solid white;
+  padding-left: 40px;
+}
+
+.footer__service-column h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer__service-column h4 {
+  font-size: 16px;
+  font-weight: 700;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.footer__service-column hr {
+  width: 109px;
+  height: 5px;
+  border: none;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.footer__service-column ul {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 15px;
+}
+
+.footer__service-column ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.footer__service-column ul li img {
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg);
+}
+
+.footer .line {
+  display: block;
+  width: 85%;
+  height: 1px;
+  border: none;
+  background-color: white;
+  margin: 30px auto;
+}
+
+.footer__info {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  color: white;
+  margin: 20px 0;
+}
+
+.footer__service-column iframe {
+  width: 400px;
+  height: 150px;
+  margin: 20px 0;
+}
+
+.footer__service-column__icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__service-column__icon img {
+  width: 36px;
+  height: 36px;
+}
+
+.footer__info .footer__service-column:nth-child(2) {
+  width: 100%;
+  height: 70%;
+  border-left: 1px solid white;
+  padding-left: 40px;
+}
+
+.footer__info .footer__service-column:nth-child(3) {
+  width: 100%;
+  height: 100%;
+  height: 70%;
+  border-left: 1px solid white;
+  padding-left: 40px;
+}
+
+.footer span {
+  color: white;
+}
+
+.mySwiper {
+  padding: 50px 0;
+  background: url("./assets/banner/bgmauxehot-4923.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: fit-content;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.car {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.car img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.car h1 {
+  color: white;
+  font-family: fontMazda;
+}
+
+.car p {
+  color: red;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.slide__size {
+  width: 100%;
+}
+
+.logo{
+  position: relative;
+}
+
+.star_animation {
+  z-index: 124 !important;
+  width: 100%;
+  height: 100%;
+  animation: star linear 1.55s infinite;
+  -moz-animation: star linear 1.55s infinite;
+  -webkit-animation: star linear 1.55s infinite;
+  -o-animation: star linear 1.55s infinite;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+@keyframes star {
+  0% {
+    transform: rotate(0) scale(0);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(360deg) scale(0);
+  }
+}
+
+.cars__Content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cars__Content .logo_giua{
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.cars__Content h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.cars__Content .star_animation{
+  z-index: 124 !important;
+  width: 5%;
+  height: 5%;
+  animation: star linear 1.55s infinite;
+  -moz-animation: star linear 1.55s infinite;
+  -webkit-animation: star linear 1.55s infinite;
+  -o-animation: star linear 1.55s infinite;
+  position: absolute;
+  top: 150px;
+  right: 48%;
+}

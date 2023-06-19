@@ -1,0 +1,73 @@
+{
+  "cars": [
+    {
+      "name": "MAZDA CX-5 2.0L DELUXE",
+      "desc": "KHẲNG ĐỊNH ĐẲNG CẤP SUV 5 CHỖ",
+      "price": "739 Triệu",
+      "mainImg": "./assets/cars/cx5-chinh-hang-9579.png",
+      "subImg": "./assets/cars/mazda-cx5-8361.png"
+    },
+    {
+      "name": "MAZDA CX-5 2.0L LUXURY",
+      "desc": "KHẲNG ĐỊNH ĐẲNG CẤP SUV 5 CHỖ",
+      "price": "759 Triệu",
+      "mainImg": "./assets/cars/mazda-cx5-3988.png",
+      "subImg": "./assets/cars/mazda-cx5-8361.png"
+    },
+    {
+      "name": "MAZDA CX-5 2.0L PREMIUM",
+      "desc": "KHẲNG ĐỊNH ĐẲNG CẤP SUV 5 CHỖ",
+      "price": "799 Triệu",
+      "mainImg": "./assets/cars/cx5-779.png",
+      "subImg": "./assets/cars/mazda-cx5-8361.png"
+    },
+    {
+      "name": "MAZDA CX-5 2.5L SIGNATURE PREMIUM AWD",
+      "desc": "KHẲNG ĐỊNH ĐẲNG CẤP SUV 5 CHỖ",
+      "price": "922 Triệu",
+      "mainImg": "./assets/cars/mazda-cx5-binh-trieu-8131.png",
+      "subImg": "./assets/cars/mazda-cx5-8361.png"
+    },
+    {
+      "name": "NEW MAZDA CX-8 2.5L LUXURY",
+      "desc": "KHẲNG ĐỊNH ĐẲNG CẤP SUV 5 CHỖ",
+      "price": "949 Triệu",
+      "mainImg": "./assets/cars/cx8-chinh-hang-6440.png",
+      "subImg": "./assets/cars/mazda-cx5-8361.png"
+    },
+    {
+      "name": "MAZDA CX-5 2.5L SIGNATURE PREMIUM AWD",
+      "desc": "KHẲNG ĐỊNH ĐẲNG CẤP SUV 7 CHỖ",
+      "price": "1 tỉ 029 Triệu",
+      "mainImg": "./assets/cars/mazda-cx8-chinh-hang-9049.png",
+      "subImg": "./assets/cars/mazda-cx5-8361.png"
+    }
+  ],
+  "aritcle": [
+    {
+      "title": "SO SÁNH MAZDA 3 VÀ MAZDA CX-30 | THIẾT KẾ & CÔNG NGHỆ HOÀN HẢO",
+      "desc": "Sự kết hợp hài hòa giữa triết lý thiết kế độc đáo và hàng loạt công nghệ hiện đại giúp Mazda3 và Mazda CX-30 - bộ đôi thế hệ 7G mới của thương hiệu Mazda - trở nên khác biệt và nổi bật",
+      "aritleImg": "./assets/article/CX5.png"
+    },
+    {
+      "title": "Tiêu đề 2",
+      "desc": "Sự kết hợp hài hòa giữa triết lý thiết kế độc đáo và hàng loạt công nghệ hiện đại giúp Mazda3 và Mazda CX-30 - bộ đôi thế hệ 7G mới của thương hiệu Mazda - trở nên khác biệt và nổi bật",
+      "aritleImg": "./assets/article/mazda.png"
+    },
+    {
+      "title": "Tiêu đề 3",
+      "desc": "Sự kết hợp hài hòa giữa triết lý thiết kế độc đáo và hàng loạt công nghệ hiện đại giúp Mazda3 và Mazda CX-30 - bộ đôi thế hệ 7G mới của thương hiệu Mazda - trở nên khác biệt và nổi bật",
+      "aritleImg": "./assets/article/CX5.png"
+    },
+    {
+      "title": "Tiêu đề 4",
+      "desc": "Sự kết hợp hài hòa giữa triết lý thiết kế độc đáo và hàng loạt công nghệ hiện đại giúp Mazda3 và Mazda CX-30 - bộ đôi thế hệ 7G mới của thương hiệu Mazda - trở nên khác biệt và nổi bật",
+      "aritleImg": "./assets/article/mazda.png"
+    },
+    {
+      "title": "Tiêu đề 5",
+      "desc": "Sự kết hợp hài hòa giữa triết lý thiết kế độc đáo và hàng loạt công nghệ hiện đại giúp Mazda3 và Mazda CX-30 - bộ đôi thế hệ 7G mới của thương hiệu Mazda - trở nên khác biệt và nổi bật",
+      "aritleImg": "./assets/article/CX5.png"
+    }
+  ]
+}
